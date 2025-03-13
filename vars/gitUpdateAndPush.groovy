@@ -5,7 +5,7 @@ def call(String url, String gitCredential) {
       git config --global user.email "archiesgurav10@gmail.com"
       git add .
       git commit -m "Update: Updated Environment Variables"
-      git push ${url} dev
+      git push -u origin dev
     '''
   }
 }
